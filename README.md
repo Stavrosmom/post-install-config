@@ -6,9 +6,7 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,34 +20,71 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles
+- Configure Departments
+- Configure Teams
+- Configure Agents and Users
+- Configure SLA and Help Topics
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/V4SRxc1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First we are going to configure our first role. From the Admin Panel, select "Agents", and then "Roles". Select "Add New Role" and type the name you want the role to be. I named mine "Supreme Admin" and gave him full access under the permissions tab.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8pte2xq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, we are going to configure our first department. From the Admin Panel, select Agents->Departments->Add new department. I named my department "System Administrators". Here you can input department information, change email and autoresponder settings and add who has access to the department.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/g3HbUFf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we are going to configure our first Team. From the Admin Panel, select Agents->Teams. There is already one team made by default called "Level I Support". We are going to select "Add New Team" and create "Level II Support". Here you can select team status, who the team lead is, and add members.
 </p>
 <br />
+<p>
+<img src="https://i.imgur.com/sOxlW4U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<p>
+Next we are going to configure user settings so that anyone can submit tickets. From the Admin  Panel, select Settings->Users. At "Authentication Settings" uncheck "registration and login to create tickets box" and set the registration method to public.
+</p>
+<br />
+<p>
+
+</p>
+<br />
+<p>
+
+</p>
+<br />
+<p>
+
+</p>
+<br />
+<p>
+
+</p>
+<br />
+<p>
+
+</p>
+<br />
+<p>
+
+</p>
+<br />
+<p>
+
+
+
+
