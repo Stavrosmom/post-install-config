@@ -60,27 +60,33 @@ Next we are going to configure user settings so that anyone can submit tickets. 
 </p>
 <br />
 <p>
-
+<img src="https://i.imgur.com/XH022GT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
-
+Next, we are going to configure new Agents. From the Admin Panel, select Agents->Add new Agent. Enter the agents Name, Email, Username, and Password. Then, select their primary department, permissions, and team.
 </p>
 <br />
 <p>
-
+<img src="https://i.imgur.com/l8eHBED.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
-
+After creating our Agents we will create our users. From the Agent panel, select users->Add New User. Here, input the users email, full name, and any internal notes that are necessary. 
 </p>
 <br />
 <p>
-
+<img src="https://i.imgur.com/Sugal1O.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
-
+Once our Users are created, we will create our Service Level Agreements. From the Admin Panel, select Manage->SLA->Add New SLA Plan. Here we can name our new SLA, determine the grace period and the schedule. I created three SLA's
+  
+- Sev-A (1 hour 24/7)
+- Sev-B (4 hours 24/7)
+- Sev-C (8 hours 24/5)
+  
+ 
 </p>
 <br />
 <p>
