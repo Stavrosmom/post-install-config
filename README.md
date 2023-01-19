@@ -85,12 +85,22 @@ Once our Users are created, we will create our Service Level Agreements. From th
 - Sev-A (1 hour 24/7)
 - Sev-B (4 hours 24/7)
 - Sev-C (8 hours 24/5)
-  
- 
 </p>
 <br />
 <p>
+<img src="https://i.imgur.com/gXldZcN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<p>
+Lastly, we will configure a few Help Topics. From the Admin Panel, select Manage->Help Topics. You can see there are a few already created by default. We are going to select "Add New Help Topic". Here you can select the status of the topic, whether its public or internal, the priority of the topic, and the department. Here are the Help Topics that I Created.
 
+- Business Critical Outage
+- Personal Computer Issues
+- Equipment Request
+- Password Reset
 
-
+</p>
+<br />
+<p>
+ Now that your osTicket is configured, you can now create real life scenario tickets!
 
